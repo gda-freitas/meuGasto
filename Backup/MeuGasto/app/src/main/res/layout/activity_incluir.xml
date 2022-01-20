@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".IncluirActivity">
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/Descricao"
+            android:hint="Descrição"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/Valor"
+            android:hint="Valor da Operação"/>
+
+    <Button
+            android:text="Salvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnIncluir"
+            android:onClick="incluir"/>
+
+</android.widget.LinearLayout>

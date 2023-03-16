@@ -1,4 +1,4 @@
-#Meu Gasto
+# Meu Gasto
 
 Aplicativo mobile devesenvolvido em kotlin como requisito pratico para Faculdade Sao Francisco de assis.
 
